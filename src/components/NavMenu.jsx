@@ -27,7 +27,7 @@ function NavMenu() {
         <li>
           <a
             class="menu__item"
-            href="https://www.nftexplorer.app/"
+            href="https://www.nftexplorer.app/collection/fv-tLxccITil"
             target={"_blank"}
           >
             View All Collection{" "}
