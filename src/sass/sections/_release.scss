@@ -1,0 +1,175 @@
+// The ones that has the same className and ends with 2 is for the second  section of the release component Roadmap Don't delete it
+
+.releases {
+  // margin: 5rem 0; ÖNEMLİ
+  display: flex;
+  flex-direction: column;
+
+  // gap: 5rem;  ÖNEMLİ
+  .release {
+    grid-template-columns: 1fr 1fr;
+
+    .content {
+      height: -50px; //Önemli
+      width: 100%;
+      flex-direction: column;
+      gap: 2rem;
+
+      .title {
+        font-size: 2rem;
+      }
+
+      .description {
+        height: 500x;
+        width: 100%;
+        font-size: 2rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.release2 {
+  display: flex;
+  padding: 5rem 8rem;
+  display: flex;
+  height: 1100px; //Önemli
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ReleaseImage{
+  height: 100%;
+  width: 100%;
+  background-color: #FCCA8D;
+}
+
+.Class-El {
+height: 100%;
+width: 100%;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .releases {
+    margin: 0;
+    gap: 0;
+
+    .release {
+      border-radius: 0;
+      grid-template-columns: 1fr;
+      padding: 1rem 2rem;
+      gap: 2rem;
+
+      .content {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+
+        .description {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 1rem;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1630px) {
+  .releases {
+    margin: 0;
+    gap: 0;
+
+    .release {
+      border-radius: 0;
+      grid-template-columns: 1fr;
+      padding: 1rem 2rem;
+      gap: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1500px) {
+  .releases {
+    margin: 0;
+    gap: 0;
+
+    .release2 {
+      border-radius: 0;
+      height: 500px;
+      grid-template-columns: 1fr;
+      padding: 1rem 2rem;
+      gap: 2rem;
+    }
+  }
+}
+
+.roadmapImg {
+  width: 1200px;
+  height: 600px;
+}
+
+.fatherLi {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  .roadmapImg {
+    width: 100%;
+    height: 200px;
+  }
+  .fatherLi {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+  .roadmapImg {
+    height: 300px;
+    width: 100%;
+  }
+
+  .fatherLi {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .roadmapImg {
+    height: 400px;
+    width: 100%;
+  }
+  .fatherLi {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+  .roadmapImg {
+    height: 400px;
+    width: 100%;
+  }
+  .fatherLi {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+}
