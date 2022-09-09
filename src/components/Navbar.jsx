@@ -15,7 +15,6 @@ export default function Navbar() {
         position: "relative",
         zIndex: 4,
         backgroundColor: "#F39CA2",
-        paddingRight: 22,
         paddingRight: "44px",
         justifyContent: "flex-end",
         display: "flex",
@@ -51,6 +50,7 @@ export default function Navbar() {
               }}
               href="https://discord.gg/luckypandas"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FaDiscord />
             </a>
@@ -63,6 +63,7 @@ export default function Navbar() {
               }}
               href="https://twitter.com/AlgoPand"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FaTwitter />
             </a>
@@ -75,6 +76,7 @@ export default function Navbar() {
               }}
               href="https://www.instagram.com/algopand/"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FaInstagram />
             </a>

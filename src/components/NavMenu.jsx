@@ -20,15 +20,16 @@ function NavMenu() {
 
       <ul class="menu__box">
         <li>
-          <a class="menu__item" href="#">
+          <a class="menu__item" href="#a">
             Home
           </a>
         </li>
         <li>
           <a
             class="menu__item"
-            href="https://www.nftexplorer.app/collection/fv-tLxccITil"
+            href="https://www.nftexplorer.app/collection/lucky-pandas"
             target={"_blank"}
+            rel="noreferrer"
           >
             View All Collection{" "}
           </a>
@@ -53,6 +54,7 @@ function NavMenu() {
             <a
               class="responsive_menu2"
               href="https://discord.gg/luckypandas"
+              rel="noreferrer"
               target={"_blank"}
             >
               <FaDiscord />
@@ -63,6 +65,7 @@ function NavMenu() {
               class="responsive_menu3"
               href="https://www.instagram.com/algopand/"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FaInstagram />
             </a>
@@ -72,6 +75,7 @@ function NavMenu() {
               class="responsive_menu"
               href="https://twitter.com/AlgoPand"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FaTwitter />
             </a>
