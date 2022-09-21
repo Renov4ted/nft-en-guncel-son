@@ -10,6 +10,7 @@ import "./sass/components/_footer.scss";
 import NavMenu from "./components/NavMenu";
 import Enterance from "./components/Enterance";
 import Token from "./components/Token";
+import Card from "./components/Card";
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,7 @@ function App() {
       <Navbar />
       <Home />
       <Enterance />
+      <Card/>
       <Release />
       <Token />
       <Footer />
