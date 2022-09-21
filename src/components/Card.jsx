@@ -12,11 +12,11 @@ function Card() {
     <div style={{
     }} className="App">
       <Carousel autoplay interval={3000}>
-        <div><img src={FATİH} alt="" /></div>
-        <div><img src={FURKAN} alt="" /></div>
-        <div><img src={NAZIRE} alt="" /></div>
-        <div><img src={BATU} alt="" /></div>
-        <div><img src={PNG1} alt="" /></div>
+        <div><img className="CardImage" src={FATİH} alt="" /></div>
+        <div><img className="CardImage" src={FURKAN} alt="" /></div>
+        <div><img className="CardImage" src={NAZIRE} alt="" /></div>
+        <div><img className="CardImage" src={BATU} alt="" /></div>
+        <div><img className="CardImage" src={PNG1} alt="" /></div>
       </Carousel>
     </div>
   );
